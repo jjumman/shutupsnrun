@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>닥치고뛰어 - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #007AFF;
+            margin-bottom: 40px;
+        }
+
+        .app-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #666;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #007AFF;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .contact-info strong {
+            color: #007AFF;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #007AFF;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #007AFF;
+            margin-bottom: 8px;
+        }
+
+        .faq-answer {
+            color: #666;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0 20px;
+            color: #999;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 60px;
+        }
+
+        .nav-links {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .nav-links a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">🏃</div>
+            <h1>닥치고뛰어</h1>
+            <p class="tagline">생각하지 말고 일단 뛰자!</p>
+        </header>
+
+        <div class="nav-links">
+            <a href="index.html">지원</a>
+            <a href="privacy.html">개인정보 보호정책</a>
+        </div>
+
+        <section>
+            <h2>앱 소개</h2>
+            <p>닥치고뛰어는 복잡한 기능 없이 러닝의 본질에 집중하는 심플한 러닝 트래킹 앱입니다. 앱을 열고, 시작 버튼을 누르고, 그냥 뛰세요!</p>
+
+            <ul class="feature-list">
+                <li>실시간 GPS 러닝 트래킹</li>
+                <li>거리, 시간, 페이스 자동 계산</li>
+                <li>러닝 기록 저장 및 관리</li>
+                <li>백그라운드 트래킹 지원</li>
+                <li>프로필 관리 기능</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>자주 묻는 질문</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. GPS 정확도를 높이려면 어떻게 해야 하나요?</div>
+                <div class="faq-answer">A. 러닝을 시작하기 전에 야외에서 잠시 대기하여 GPS 신호가 안정화되도록 해주세요. 건물이 밀집된 지역이나 터널에서는 정확도가 떨어질 수 있습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 백그라운드에서도 트래킹이 가능한가요?</div>
+                <div class="faq-answer">A. 네! 러닝 중에도 다른 탭으로 이동하거나 음악을 재생할 수 있습니다. 백그라운드에서도 지속적으로 위치를 추적합니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 러닝 기록은 어디에 저장되나요?</div>
+                <div class="faq-answer">A. 모든 러닝 기록은 기기에 로컬로 저장됩니다. 클라우드에 업로드되지 않으며, 사용자의 프라이버시를 보호합니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 러닝 기록을 삭제할 수 있나요?</div>
+                <div class="faq-answer">A. 네! 전체 러닝 기록 화면에서 각 기록을 왼쪽으로 스와이프하여 삭제할 수 있습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 배터리 소모는 어떤가요?</div>
+                <div class="faq-answer">A. GPS를 사용하는 모든 앱과 마찬가지로 배터리가 소모됩니다. 장시간 러닝 시에는 저전력 모드를 해제하고 충분한 배터리를 확보하는 것을 권장합니다.</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>문의하기</h2>
+            <div class="contact-info">
+                <p>앱 사용 중 문제가 발생하거나 문의사항이 있으시면 언제든지 연락주세요.</p>
+                <p><strong>개발팀:</strong> ShutUpAndRun Team</p>
+                <p><strong>이메일:</strong> <a href="mailto:jjumman@gmail.com" style="color: #007AFF;">jjumman@gmail.com</a></p>
+                <p><strong>응답 시간:</strong> 영업일 기준 1-2일 이내</p>
+            </div>
+            <p>이메일 문의 시 다음 정보를 포함해주시면 빠른 답변에 도움이 됩니다:</p>
+            <ul class="feature-list">
+                <li>앱 버전 (프로필 > 앱 정보에서 확인 가능)</li>
+                <li>기기 모델 및 iOS 버전</li>
+                <li>문제 발생 상황 설명</li>
+                <li>스크린샷 (필요시)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>피드백 및 제안</h2>
+            <p>더 나은 앱을 만들기 위해 여러분의 의견을 기다립니다. 새로운 기능 제안이나 개선 사항이 있다면 jjumman@gmail.com으로 보내주세요.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 ShutUpAndRun Team. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy.html" style="color: #007AFF; text-decoration: none;">개인정보 보호정책</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
